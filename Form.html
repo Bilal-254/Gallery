@@ -1,0 +1,73 @@
+<html>
+<head>
+ <title>Forms</title>
+<center>
+ <h1>
+    BIO DATA FORM 
+ </h1>
+</center>
+</head>
+<body>
+   
+
+   <form>
+   
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname">
+   
+            <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname"><br>
+   
+
+    <br>
+      <label for="qualification">Qualification:</label>
+      <input type="text" id="qualification" name="qualification">
+    
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age"><br>
+      <br>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob"><br>
+  
+    <br>
+      <fieldset style="border: 1px solid #ccc; padding: 10px;">
+        <legend>Gender:</legend>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+      </fieldset><br>
+    
+      <label for="cnic">CNIC:</label>
+      <input type="text" id="cnic" name="cnic" pattern="[0-9]{5}-[0-9]{7}-[0-9]">
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+    <br>
+    <fieldset style="border: 1px solid #ccc; padding: 10px;">
+      <legend>Marital Status:</legend>
+      <input type="radio" id="Married" name="Marital Status" Marital Status="Married">
+      <label for="married">Married</label>
+      <input type="radio" id="Single" name="Marital Status"Marital Status="Single">
+      <label for="Single">Single</label>
+      <input type="radio" id="Divorced" name="Marital Status" Marital Status="Divorced">
+      <label for="Divorced">Divorced</label>
+    </fieldset><br>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone"><br>
+    <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br>
+    <br>
+      <label for="confirm_password">Confirm Password:</label>
+   
+      <input type="password" id="confirm_password" name="confirm_password"><br>
+    <br>
+    
+      <input type="submit" value="SUBMIT" id="submit" name="submit">
+    </form>
+   
+</body>
+</html>
